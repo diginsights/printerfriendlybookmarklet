@@ -1,4 +1,16 @@
-## Welcome to GitHub Pages
+## Creating a Bookmark to remove the footer for print
+
+1.	Navigate to the url chrome://bookmarks
+ 
+2.	Right click and Add a Page: 
+3.	Fill in the details (Make sure the footer has the whole line of code listed)
+
+Name: Printer Friendly
+URL: javascript:(function(){let f = document.getElementsByClassName("shared-page-footer");f[0].parentNode.removeChild(f[0]);var css='.ta-tabs-panel-content { height: auto; }"',head=document.head || document.getElementsByTagName('head')[0],style=document.createElement('style');style.type='text/css';if (style.styleSheet){style.styleSheet.cssText=css;} else {style.appendChild(document.createTextNode(css));}head.appendChild(style);})();
+ 
+
+ 
+4.	Now when you are on the results page, just click the bookmark to make the footer disappear and you can print
 
 You can use the [editor on GitHub](https://github.com/diginsights/printerfriendlybookmarklet/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
