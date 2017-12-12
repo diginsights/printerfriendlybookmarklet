@@ -6,7 +6,8 @@
 3.	Fill in the details (Make sure the footer has the whole line of code listed)
 
 Name: Printer Friendly
-URL: javascript:(function(){let f = document.getElementsByClassName("shared-page-footer");f[0].parentNode.removeChild(f[0]);var css='.ta-tabs-panel-content { height: auto; }"',head=document.head || document.getElementsByTagName('head')[0],style=document.createElement('style');style.type='text/css';if (style.styleSheet){style.styleSheet.cssText=css;} else {style.appendChild(document.createTextNode(css));}head.appendChild(style);})();
+URL: 
+[Link](javascript:(function(){let f = document.getElementsByClassName("shared-page-footer");f[0].parentNode.removeChild(f[0]);var css='.ta-tabs-panel-content { height: auto; }"',head=document.head || document.getElementsByTagName('head')[0],style=document.createElement('style');style.type='text/css';if (style.styleSheet){style.styleSheet.cssText=css;} else {style.appendChild(document.createTextNode(css));}head.appendChild(style);})();) and !
  
 
  
@@ -21,7 +22,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
-Syntax highlighted code block
+javascript:(function(){let f = document.getElementsByClassName("shared-page-footer");f[0].parentNode.removeChild(f[0]);var css='.ta-tabs-panel-content { height: auto; }"',head=document.head || document.getElementsByTagName('head')[0],style=document.createElement('style');style.type='text/css';if (style.styleSheet){style.styleSheet.cssText=css;} else {style.appendChild(document.createTextNode(css));}head.appendChild(style);})();```
 
 # Header 1
 ## Header 2
