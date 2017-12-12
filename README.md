@@ -7,7 +7,7 @@
 
 Name: Printer Friendly
 URL: [Link]("test.com") and ![Image](src)
-[Link]("javascript:(function(){let f = document.getElementsByClassName("shared-page-footer");f[0].parentNode.removeChild(f[0]);var css='.ta-tabs-panel-content { height: auto; }"',head=document.head || document.getElementsByTagName('head')[0],style=document.createElement('style');style.type='text/css';if (style.styleSheet){style.styleSheet.cssText=css;} else {style.appendChild(document.createTextNode(css));}head.appendChild(style);})();") and !
+[Link]("javascript:(function(){let f = document.getElementsByClassName('shared-page-footer');f[0].parentNode.removeChild(f[0]);var css='.ta-tabs-panel-content { height: auto; }',head=document.head || document.getElementsByTagName('head')[0],style=document.createElement('style');style.type='text/css';if (style.styleSheet){style.styleSheet.cssText=css;} else {style.appendChild(document.createTextNode(css));}head.appendChild(style);})();") and !
  
 
  
